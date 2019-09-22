@@ -15,8 +15,5 @@ require 'pry'
    }
   
 def remove_strawberry(contacts)
-  contacts.each do |key, value|
-    value.each do |k, v|
-      if k==:favorite_ice_cream_flavors
-        :favorite_ice_cream_flavors.include? "strawberry"
+  
 end
